@@ -51,4 +51,9 @@ Ce dépôt GitHub contient les éléments nécessaires pour le déploiement d'un
 ## Test 
 
 Pour les tests, des images sont présentées dans le dossier `Test_images`, il suffit de les charger dans l'interface de l'API.
+Voici un exemple de tests :
+<p align="center">
+  <img src="images_github_presentation/image_api.png" alt="Interface">
+</p>
+
 

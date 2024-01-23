@@ -1,6 +1,9 @@
 ![Logo du projet](images_github_presentation/logo.png)
 
 
+<p align="center">
+  <img src="images_github_presentation/logo.png" alt="Logo du projet">
+</p>
 
 
 # Homework Allistone

@@ -1,14 +1,24 @@
-##Homework allistone 
+# Homework Allistone
 
-#Description 
+## Description
 
-Ce dossier github contient les éléments nécéssaires au dépoliement d'une API pour un model de machine learning.
-Le model de machine learning est un model de segmentation d'images de capillaires sanguins basé sur le réseau de neuronne U-net. Il prend en entrée unne image et renvoie l'image segmentée ainsi que le nombre de capillaires segmentés sur l'image.
+Ce dépôt GitHub contient les éléments nécessaires pour le déploiement d'une API pour un modèle de machine learning. Le modèle de machine learning est basé sur le réseau de neurones U-Net et est utilisé pour la segmentation d'images de capillaires sanguins. L'API prend en entrée une image et renvoie l'image segmentée ainsi que le nombre de capillaires segmentés sur l'image.
 
-API Fastapi + STREAMLIT + DOCKER (containerized application)
+**Technologies utilisées :** API FastAPI + STREAMLIT + DOCKER (application containerisée)
 
-Le fichier frontend contient le code streamlit pour l'interface graphique
+## Contenu du Répertoire
 
-Le fichier api contient le code de l'api Fastapi qui renvoit les prédictions du modèle `best_model.h5`
+- **frontend :** Contient le code Streamlit pour l'interface graphique.
+- **api :** Contient le code de l'API FastAPI qui renvoie les prédictions du modèle `best_model.h5`.
 
+## Utilisation
+
+1. Clonez le dépôt : `git clone https://github.com/votre-utilisateur/nom-du-repo.git`
+2. ...
+
+(ajoutez ici des instructions d'utilisation, d'installation, etc.)
+
+## Licence
+
+[Insérez le type de licence ici, par exemple MIT, Apache, etc.]
 

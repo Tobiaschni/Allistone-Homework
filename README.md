@@ -47,11 +47,8 @@ Ce dépôt GitHub contient les éléments nécessaires pour le déploiement d'un
 6. exéctuer l'instruction suivante : docker-compose up
 7. se rendre sur http://localhost:8501/ pour tester l'API 
 
-(ajoutez ici des instructions d'utilisation, d'installation, etc.)
 
 ## Test 
 
-## Licence
-
-[Insérez le type de licence ici, par exemple MIT, Apache, etc.]
+Pour les tests, des images sont présentées dans le dossier `Test_images`, il suffit de les charger dans l'interface de l'API.
 

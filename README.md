@@ -1,4 +1,4 @@
-![Logo du projet](images_github_presentation/logo.png)
+
 
 
 <p align="center">

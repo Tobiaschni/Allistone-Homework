@@ -1,8 +1,13 @@
 ![Logo du projet](images_github_presentation/logo.png)
 
+![Logo du projet](images_github_presentation/logo.png)
+
+
 
 
 # Homework Allistone
+
+![Logo du projet](images_github_presentation/logo.png)
 
 ## Description
 

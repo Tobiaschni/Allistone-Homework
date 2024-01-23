@@ -18,12 +18,14 @@ Ce dépôt GitHub contient les éléments nécessaires pour le déploiement d'un
 ## Contenu du Répertoire
 
 - **Test_images :** Contient des images de capillaires sanguins pour tester l'API
-- **code_segmentation:** Contient les script predictions.py et capillaries_detections.py. Les fonctions de capillaires_detections.py sont appellées dans predictions.py Les fonctions de predictions.py sont utilisées dans le backend.py pour prédire la segmentation, compter le nombre de capillaire et dessiner les capillaires sur la segmentations.
-- **Dockerfile_backend:** Ce Dockerfile configure un conteneur Docker pour exécuter une application Python basée sur FastAPI en utilisant Uvicorn comme serveur, avec les dépendances installées à partir du fichier requirements_backend.txt. Le conteneur écoute sur le port 8000 et utilise une variable d'environnement NAME.
-- **Dockerfile_backend:**ce Dockerfile configure un conteneur Docker pour exécuter une application basée sur Streamlit. Il installe les dépendances à partir du fichier requirements_frontend.txt, expose le port 8501, puis lance automatiquement l'application Streamlit en exécutant le script frontend.py lorsque le conteneur est démarré.
-- **frontend :** Contient le code Streamlit pour l'interface graphique.
-
-- **api :** Contient le code de l'API FastAPI qui renvoie les prédictions du modèle `best_model.h5`.
+- **code_segmentation:** Contient les scripts predictions.py et capillaries_detections.py. Les fonctions de capillaires_detections.py sont appellées dans predictions.py. Les fonctions de predictions.py sont utilisées dans le backend.py pour prédire la segmentation, compter le nombre de capillaire et dessiner les capillaires sur la segmentations.
+- **backend:** Consiste à définir une API FastAPI qui accepte une image en entrée, effectue des prédictions de segmentation de capillaires sanguins à l'aide du modèle `segm_model_final.h5`. La prédiction (segmentation + le compte des capillaires) et la représentation graphique de la segmentation sont réalisées par trois fonctions dans le script code_segmentation/predictions.py
+- **frontend:** Utilisée pour implémenter une interface utilisateur Web interactive qui permet aux utilisateurs de télécharger une image, d'envoyer cette image à une API FastAPI, puis d'afficher les résultats de la segmentation des capillaires sanguins fournis par l'API et le compte de ces capillaires
+- **requirements_backend:** toutes les bibliothèques nécessaires pour exécuter le backend
+- **Dockerfile_backend:** Ce dockerfile configure un conteneur Docker pour exécuter une application Python basée sur FastAPI en utilisant Uvicorn comme serveur, avec les dépendances installées à partir du fichier requirements_backend.txt. Le conteneur écoute sur le port 8000 et utilise une variable d'environnement NAME.
+- **requirements_frontend:**  toutes les bibliothèques nécessaires pour exécuter le frontend
+- **Dockerfile_backend:** Ce dockerfile configure un conteneur Docker pour exécuter une application basée sur Streamlit. Il installe les dépendances à partir du fichier requirements_frontend.txt, expose le port 8501, puis lance automatiquement l'application Streamlit en exécutant le script frontend.py lorsque le conteneur est démarré.
+- ***Docker_compose:** Ce fichier Docker Compose configure deux services, l'un pour FastAPI et l'autre pour Streamlit, en spécifiant comment construire les images Docker, quels ports exposer et comment les services dépendent les uns des autres.
 
 ## Utilisation
 

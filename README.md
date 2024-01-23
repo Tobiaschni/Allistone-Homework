@@ -25,7 +25,8 @@ Ce dépôt GitHub contient les éléments nécessaires pour le déploiement d'un
 - **Dockerfile_backend:** Ce dockerfile configure un conteneur Docker pour exécuter une application Python basée sur FastAPI en utilisant Uvicorn comme serveur, avec les dépendances installées à partir du fichier requirements_backend.txt. Le conteneur écoute sur le port 8000 et utilise une variable d'environnement NAME.
 - **requirements_frontend:**  toutes les bibliothèques nécessaires pour exécuter le frontend
 - **Dockerfile_backend:** Ce dockerfile configure un conteneur Docker pour exécuter une application basée sur Streamlit. Il installe les dépendances à partir du fichier requirements_frontend.txt, expose le port 8501, puis lance automatiquement l'application Streamlit en exécutant le script frontend.py lorsque le conteneur est démarré.
-- ***Docker_compose:** Ce fichier Docker Compose configure deux services, l'un pour FastAPI et l'autre pour Streamlit, en spécifiant comment construire les images Docker, quels ports exposer et comment les services dépendent les uns des autres.
+- **Docker_compose:** Ce fichier Docker Compose configure deux services, l'un pour FastAPI et l'autre pour Streamlit, en spécifiant comment construire les images Docker, quels ports exposer et comment les services dépendent les uns des autres.
+- **unit_test_backend:** contient un unitest pour tester le backend. S'assure que les output sont dans le format attendus
 
 ## Utilisation
 

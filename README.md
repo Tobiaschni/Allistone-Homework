@@ -30,8 +30,13 @@ Ce dépôt GitHub contient les éléments nécessaires pour le déploiement d'un
 
 ## Utilisation
 
-1. Clonez le dépôt : `git clone https://github.com/votre-utilisateur/nom-du-repo.git`
-2. ...
+1. Télécharger le répertoire Github
+2. Télécharger Docker s'il n'est pas déjà installé
+3. Ouvrir docker
+4. Sur son terminal se rendre dans l'environement du dossier téléchargé
+5. exécuter l'instruction suivante : docker-compose build
+6. exéctuer l'instruction suivante : docker-compose up
+7. se rendre sur http://localhost:8501/ pour tester l'API 
 
 (ajoutez ici des instructions d'utilisation, d'installation, etc.)
 

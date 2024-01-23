@@ -1,3 +1,7 @@
+![Logo du projet](images_github_presentation/logo.png)
+
+
+
 # Homework Allistone
 
 ## Description
